@@ -1559,10 +1559,11 @@ form textarea{
    .service-middle-overlay{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+    gap: 5px;
    }
    .about-middle{
     flex-direction: column;
+    
    }
    .about-middle-leftbox, .about-middle-rightbox{
     width: 100%;
@@ -1577,10 +1578,10 @@ form textarea{
        grid-template-columns: 1fr;
    }
    .contact-mid-section p{
-    font-size: 25px;
+    font-size: 20px;
    }
    .cms-box2-overlay div h3{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 12px;
    }
    .cms-4 a{
