@@ -1510,7 +1510,7 @@ form textarea{
   min-height: 8vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  font-size: 1vw;
+  font-size: 11px;
   cursor: pointer;
   box-shadow: 0 0 5px #fff;
 }
@@ -1576,23 +1576,33 @@ form textarea{
        display: grid;
        grid-template-columns: 1fr;
    }
+   .contact-mid-section p{
+    font-size: 25px;
+   }
+   .cms-box2-overlay div h3{
+    font-size: 25px;
+    margin-top: 12px;
+   }
+   .cms-4 a{
+    font-size: 25px;
+   }
+   .career-mid-heading h3{
+    font-size: 25px;
+   }
    .career-mid-box1, .career-mid-box2, .career-mid-box3, .career-mid-box4, .career-mid-box5{
     width: 100%;
    }
    .cmb2-3 p, .cmb3-3 p, .cmb4-3 p, .cmb5-3 p,
   .cmb2-5 p, .cmb3-5 p, .cmb4-5 p, .cmb5-5 p{
-    font-size: 11px;
+    font-size: 25px;
   }
   .cmb2-1 p, .cmb3-1 p, .cmb4-1 p, .cmb5-1 p,
  .cmb2-2 p, .cmb3-2 p, .cmb4-2 p, .cmb5-2 p,
  .cmb2-4 p, .cmb3-4 p, .cmb4-4 p, .cmb5-4 p, .cmb2-1 h5, .cmb3-1 h5, .cmb4-1 h5, .cmb5-1 h5,
  .cmb2-2 h5, .cmb3-2 h5, .cmb4-2 h5, .cmb5-2 h5,
  .cmb2-4 h5, .cmb3-4 h5, .cmb4-4 h5, .cmb5-4 h5, .cmb1-bottom li,.cmb1-top h4, .cmb2-top h4, .cmb3-top h4, .cmb4-top h4, .cmb5-top h4{
-    font-size: 11px;
+    font-size: 25px;
   }
-
-
-
    .service-middle-box1, .service-middle-box2, .service-middle-box3, .service-middle-box4{
     width: 100%;
     
@@ -1637,8 +1647,7 @@ form textarea{
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 100px;
   }
-  
-  
+   
 }
 
 @media(max-width:768px){
@@ -1705,14 +1714,6 @@ form textarea{
    .cbs1-box{
     grid-template-columns: 1fr;
    }
-
-  .career-mid-section-overlay{
-    display: grid;
-    grid-template-columns:1fr;
-  }
-  .career-mid-box1, .career-mid-box2, .career-mid-box3, .career-mid-box4, .career-mid-box5{
-    width:100%;
-  }
   .cmb2-3 p, .cmb3-3 p, .cmb4-3 p, .cmb5-3 p,
   .cmb2-5 p, .cmb3-5 p, .cmb4-5 p, .cmb5-5 p{
     font-size: 11px;
