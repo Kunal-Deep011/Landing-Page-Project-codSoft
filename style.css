@@ -1465,7 +1465,7 @@ form textarea{
 .send{
   background:	#4169E1;
   color:#fff;
-  font-size: 1vw;
+  font-size: 11px;
   cursor:pointer;
   width:40%;
   border-radius: 10px;
@@ -1559,8 +1559,40 @@ form textarea{
    .service-middle-overlay{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    
    }
+   .about-middle{
+    flex-direction: column;
+   }
+   .about-middle-leftbox, .about-middle-rightbox{
+    width: 100%;
+   }
+   .career-mid-section-overlay{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+   }
+   .contact-mid-section{
+       display: grid;
+       grid-template-columns: 1fr;
+   }
+   .career-mid-box1, .career-mid-box2, .career-mid-box3, .career-mid-box4, .career-mid-box5{
+    width: 100%;
+   }
+   .cmb2-3 p, .cmb3-3 p, .cmb4-3 p, .cmb5-3 p,
+  .cmb2-5 p, .cmb3-5 p, .cmb4-5 p, .cmb5-5 p{
+    font-size: 11px;
+  }
+  .cmb2-1 p, .cmb3-1 p, .cmb4-1 p, .cmb5-1 p,
+ .cmb2-2 p, .cmb3-2 p, .cmb4-2 p, .cmb5-2 p,
+ .cmb2-4 p, .cmb3-4 p, .cmb4-4 p, .cmb5-4 p, .cmb2-1 h5, .cmb3-1 h5, .cmb4-1 h5, .cmb5-1 h5,
+ .cmb2-2 h5, .cmb3-2 h5, .cmb4-2 h5, .cmb5-2 h5,
+ .cmb2-4 h5, .cmb3-4 h5, .cmb4-4 h5, .cmb5-4 h5, .cmb1-bottom li,.cmb1-top h4, .cmb2-top h4, .cmb3-top h4, .cmb4-top h4, .cmb5-top h4{
+    font-size: 11px;
+  }
+
+
+
    .service-middle-box1, .service-middle-box2, .service-middle-box3, .service-middle-box4{
     width: 100%;
     
@@ -1568,7 +1600,7 @@ form textarea{
    #bottom{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    
    }
    #b1, #b2, #b3, #b4{
     width: 100%;
@@ -1605,18 +1637,12 @@ form textarea{
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 100px;
   }
-  .contact-mid-section{
-    display: grid;
-    grid-template-columns: 1fr ;
-  }
+  
   
 }
 
 @media(max-width:768px){
-  .contact-mid-section{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+  
   .service-bottom-overlay{
     grid-template-columns: 1fr 1fr 1fr;  
      margin-bottom: 100px;
@@ -1664,10 +1690,6 @@ form textarea{
   .cbs1-box{
     font-size: 11px;
     line-height: 3;
-  }
-  .contact-mid-section{
-    display: grid;
-    grid-template-columns: 1fr;
   }
   
   .rightnav{
